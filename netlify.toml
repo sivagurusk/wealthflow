@@ -1,0 +1,6 @@
+[build]
+  command = "cd frontend && npm run build"
+  publish = "frontend/build"
+
+[context.production.environment]
+  REACT_APP_API_URL = "https://wealthflow-api-production.up.railway.app/api"
