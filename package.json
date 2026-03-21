@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "cd backend && node server.js",
-    "build": "cd frontend && npm run build",
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "postinstall": "cd backend && npm install"
   },
   "keywords": ["finance", "expense", "tracker"],
   "author": "",
