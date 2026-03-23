@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar';
 import TransactionForm from '../components/TransactionForm';
 import { TrendingUp, TrendingDown, PieChart as PieChartIcon, Trash2, X } from 'lucide-react';
 import { format } from 'date-fns';
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 
 const Dashboard = () => {
   const { transactions, getTransactions, deleteTransaction } = useContext(GlobalContext);
